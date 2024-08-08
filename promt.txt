@@ -1,0 +1,154 @@
+Relevant Experience: 
+- Expected experience is 3+ years. Focus on the last 3 years of projects listed in the resume. Extract the duration of each project and the skills used during that time.
+
+Must-Have Experience:
+1. Python: Calculate the total years of experience in Python Development across all relevant projects.
+2. Machine Learning: Calculate the total years of experience in machine learning across all relevant projects.
+3. HTML: Calculate the total years of experience in web development using HTML5 across all relevant projects.
+4. CSS: Calculate the total years of experience in web development using CSS3 across all relevant projects.
+
+Good-to-Have Experience:
+1. NumPy: Calculate the total years of experience using NumPy across all relevant projects.
+2. SciPy: Calculate the total years of experience using SciPy across all relevant projects.
+3. Pandas: Calculate the total years of experience using Pandas across all relevant projects.
+4. Dask: Calculate the total years of experience using Dask across all relevant projects.
+5. spaCy: Calculate the total years of experience using spaCy across all relevant projects.
+6. NLTK: Calculate the total years of experience using NLTK across all relevant projects.
+7. PyTorch: Calculate the total years of experience using PyTorch across all relevant projects.
+8. JavaScript: Calculate the total years of experience in web development using JavaScript across all relevant projects.
+9. SQL: Calculate the total years of experience using SQL across all relevant projects.
+10. NoSQL: Calculate the total years of experience using NoSQL databases across all relevant projects.
+11. Django: Calculate the total years of experience using Django across all relevant projects.
+12. Flask: Calculate the total years of experience using Flask across all relevant projects.
+13. Pyramid: Calculate the total years of experience using Pyramid across all relevant projects.
+14. AWS: Calculate the total years of experience using AWS across all relevant projects.
+15. Google Cloud: Calculate the total years of experience using Google Cloud across all relevant projects.
+16. Azure: Calculate the total years of experience using Azure across all relevant projects.
+
+Locations:
+- Determine if the candidate has experience in the required locations. For each relevant location mentioned, assign the total years of experience in those locations.
+
+Experience:
+- Ensure the candidate has 3+ years of overall experience. Calculate the total years of experience across all relevant projects.
+
+Calculation Methodology:
+
+1. Relevant Experience:
+   - Calculate the total duration of the last 3 years of projects. For each project, list the skills used.
+   - Sum the years of experience for each project.
+
+2. Must-Have Experience:
+   - Calculate the total years of experience for each must-have skill across all relevant projects.
+
+3. Good-to-Have Experience:
+   - Calculate the total years of experience for each good-to-have skill across all relevant projects.
+
+4. Locations:
+   - Sum the total years of experience for each relevant location mentioned.
+
+5. Experience:
+   - Calculate the total years of experience across all relevant projects.
+
+Example Answer Calculation:
+
+Relevant Experience:
+- Project 1: Bath & Body Works (Dec 2019 – May 2021) - 1.5 years
+- Project 2: Auto-Owners Insurance (Jan 2018 – Nov 2019) - 1.8 years
+- Total: 3.3 years
+
+Must-Have Skills:
+1. Python: 3.3 years
+2. Machine Learning: 0 years
+3. HTML: 1.8 years
+4. CSS: 1.8 years
+
+Good-to-Have Skills:
+1. NumPy: 3.3 years
+2. SciPy: 1.8 years
+3. Pandas: 1.8 years
+4. Dask: 0 years
+5. spaCy: 0 years
+6. NLTK: 0 years
+7. PyTorch: 0 years
+8. JavaScript: 0 years
+9. SQL: 0 years
+10. NoSQL: 0 years
+11. Django: 3.3 years
+12. Flask: 0 years
+13. Pyramid: 0 years
+14. AWS: 1.5 years
+15. Google Cloud: 0 years
+16. Azure: 0 years
+
+Locations:
+- Relevant Locations: 0 
+
+Experience:
+- Total Experience: 3.3 years
+
+Formatted Answer:
+
+Relevant Experience: 3.3 years
+
+Must-Have Experience:
+1. Python: 3.3 years
+2. Machine Learning: 0 years
+3. HTML: 1.8 years
+4. CSS: 1.8 years
+
+Good-to-Have Experience:
+1. NumPy: 3.3 years
+2. SciPy: 1.8 years
+3. Pandas: 1.8 years
+4. Dask: 0 years
+5. spaCy: 0 years
+6. NLTK: 0 years
+7. PyTorch: 0 years
+8. JavaScript: 0 years
+9. SQL: 0 years
+10. NoSQL: 0 years
+11. Django: 3.3 years
+12. Flask: 0 years
+13. Pyramid: 0 years
+14. AWS: 1.5 years
+15. Google Cloud: 0 years
+16. Azure: 0 years
+
+Locations: 0 
+Experiences: 3.3 years
+
+Test Question:
+Here is a resume of a candidate. I need the following information from the resume: the Relevant Experience, Must-Have Experience, Good-to-Have Experience of the candidate using the skills required below:
+
+Skills Required:
+- Job Title: Must-Have: Python, Machine Learning, HTML, CSS
+- Good-to-Have: NumPy, SciPy, Pandas, Dask, spaCy, NLTK, PyTorch, JavaScript, SQL, NoSQL, Django, Flask, Pyramid, AWS, Google Cloud, Azure
+- Locations: 0
+- Experience: 3+ years
+
+Test Answer:
+Relevant Experience: 3.3 years
+Must-Have Experience:
+1. Python: 3.3 years
+2. Machine Learning: 0 years
+3. HTML: 1.8 years
+4. CSS: 1.8 years
+Good-to-Have Experience:
+1. NumPy: 3.3 years
+2. SciPy: 1.8 years
+3. Pandas: 1.8 years
+4. Dask: 0 years
+5. spaCy: 0 years
+6. NLTK: 0 years
+7. PyTorch: 0 years
+8. JavaScript: 0 years
+9. SQL: 0 years
+10. NoSQL: 0 years
+11. Django: 3.3 years
+12. Flask: 0 years
+13. Pyramid: 0 years
+14. AWS: 1.5 years
+15. Google Cloud: 0 years
+16. Azure: 0 years
+Locations: 0 
+Experiences: 3.3 years

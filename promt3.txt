@@ -1,0 +1,124 @@
+question = (f"""
+    Demo Question:
+    Demo Question :
+Jayalaxmi Python Developer Email: ad2nib@r.postjobfree.com Ph #: 248-***-**** Professional Summary: * + years of IT experience in Analysis, Design, Development, Implementation and Testing of various stand - alone and client-server architecture-based enterprise application software in Python on various domains. Experience in Python with using new tools and technical developments (Libraries Used: libraries - Beautiful Soup, NumPy, SciPy, Matplotlib, Pickle, PySide, Pandas dataframe, SQLAlchemy, urllib2, Pychart, Highcharts, PyTables) to drive improvements throughout entire SDLC. Experienced in MVC frameworks like Django, AngularJS, JavaScript, jQuery and Node.js. Experienced in designing and deploying multiple applications utilizing almost all the AWS stack (Including EC2, Route53, S3, RDS, Dynamo DB, SNS, SQS, IAM) focusing on high-availability, fault tolerance, and auto- scaling in AWS Cloud Formation. Experience in developing and implementing Web Services using REST, SOAP, and WSDL, Open Stack and developing slack application. Proficient in creating, maintaining, and updating various Web applications created primarily in Python as well as coding and maintenance of web-based application utilizing Python Experienced in working with various Python IDE's using PyCharm, PyScripter, Spyder, Anaconda, PyStudio and PyDev. Experienced in Requirement gathering, Use Case development, Business Process flow, Business Process Modeling. Experience in working with EC2 Container Service plugin in JENKINS which automates the Jenkins master-slave configuration by creating temporary slaves. Experienced with the use of Regular Expressions to validate input fields and URLs. Exceptional Skills in Backend Development with Python using the Django framework with the latest in the technical communities and have a track record of delivering scalable backend solutions and APIs Expertise in establishing database connections for Python by configuring packages like MySQL-Python. Experience in working with various Python Integrated Development, PyCharm, Atom, Spyder, Jypyter Notebook, Eclipse, and Sublime Text, Notepad++. Expertise in working with different databases like Oracle, MySQL and Good knowledge in using NoSQL databases MongoDB. Experience of Build & Deployment phase and usage of Continuous Integration (CI/CD) tools, build configuration, change history for releases, Maintenance of build system, automation & smoke test processes, managing, configuring, and maintaining source control management systems. Experience in using various version control systems like Git, GitHub.
+Possess good interpersonal, analytical presentation Skills, ability to work in Self-managed and Team environments. Having experience with front end web development in HTML/CSS/JS. Strong Javascript knowledge and experience with one or more JavaScript frameworks such as JQuery, AngularJS or React Educational Details: Master of Computer Applications – MCA, Mother Teresa PG College, India, 2007 to 2010 Bachelor of Science in computer science – BSc, Priyadarshini Degree College, India,2004-2007 Technical Skills: Languages Python, PL/SQL Python Libraries Beautiful Soup, matplotlib, Pandas data frame, urllib2, Requests, Scrapy, wxPython, Pillow, SQLAlchemy, Twisted, NumPy, SciPy, Pygame, Pyglet, PyQt, Scapy, nose, SymPy, IPython Frameworks Bootstrap, Django, Node.JS, Flask AWS EC2, S3, EBS, EC2 Container Service (ECS), Cloud Formation, RDS, Lambda, boto3, AWSCLI, Elastic Cache and CloudWatch, SQS Database Oracle, Mongo DB, Cassandra DB IDE s PyCharm, Eclipse, NetBeans, MS Visual Studio, PyDev, RIDE, Visual Studio Code. Version Control GitHub, Git. Professional Experience: Client: Bank of America, New Jersey Role: Python Application Developer Aug 2022 – Sep 2023 Responsibilities: Involved in writing modules, updating scripts and writing Unit Test cases for modules. Designing UI, and displaying data. Designed and developed components using Python Implemented code in Python to retrieve and manipulate data. Written Unit test cases using the Unit testing framework with 95% of code coverage. Wrote data access modules in Python. Worked with Sandra DB - add, update, modify tables. Used REST API to get the data from API by using URL from Swagger UI Involved in regression testing, UAT testing support. Performed troubleshooting, fixed and deployed many Python bug fixes of the application. Actively worked on production issue support in most of the sprint
+Worked in Agile model of SDLC. Actively worked as a part of a team with managers and other staff to meet the goals of the project in the stipulated time. Involved in requirement gathering and analysis phase of the project in documenting the business requirements by conducting meetings with various business users. Environment: Python, Quartz · Bob time scheduler, XML, JSON, REST API, Agile. Professional Experience: Client: Google, San Francisco, CA June 2021 – Apr 2022 Role: Python backend Developer Responsibilities: Used Google sheets and slides API for access and update of spreadsheets and slides programmatically. Implemented user interface guidelines and standards throughout the development and maintenance of the website using the HTML, CSS, JavaScript Participated in Daily stand-up meetings and provided status on work progress. Write and review technical documents, and participate in collaborative code reviews Setup API endpoints with front-end developer Executed MYSQL database queries from python using Python-MySQL connector and MySQL dB package to retrieve information Utilized Joins and Sub-queries to simplify complex queries involving multiple tables while optimizing procedures and triggers in production. Created methods (get, post, put, delete) to make requests to the API server and tested Restful API using postman Environment: Python,XML, JSON, SQL,REST API, GIT, Jira, Agile, Windows,C Professional Experience: Client: Bath & Body Works, Reynoldsburg, OH Dec 2019 – May 2021 Role: Python Developer Responsibilities: Participated in requirement gathering and worked closely with the architect in designing and modelling Designed front end and backend of the application using Python on Django Web Framework. Used Python modules like Restful, Matplotlib and Pandas library for statistical analysis and generating complex graphical data and NumPy for numerical analysis. Worked in AWS services like VPC, EC2, S3, ELB, Autoscaling Groups (ASG), EBS, RDS, IAM, CloudWatch. Parsed various file formats including XML and JSON and loaded into Oracle database with Python XML and JSON modules Used Python Library Beautiful Soup for web scrapping to extract data for building graphs Used Python based GUI components for the front-end functionality such as selection criteria, created test harness to enable comprehensive testing utilizing Python.
+Used BeautifulSoup python library for web scraping to extract important data from html and xml tags. Extensively used CSS3 media queries and Bootstrap while working on responsive web design Create a new product offering that will display dashboards, data and analytical visualizations Create new, complex feature sets that enhance the product Develop browser extensions and injected JavaScript Very strong understanding of and extensive expertise with the entire software development process Extensive knowledge and development experience in JavaScript on both server and client environments Worked in AWS S3 buckets, instances using python boto3. Worked on multiple containers and managed the load balancing between all the containers using NGINX. Generated Python Django forms to record data of online users and used PyTest for writing test cases Used PyQuery for selecting particular DOM elements when parsing HTML. Developed Python code for instantiating multi-threaded application and running with other applications. Integration of user-facing elements developed by front-end developers with server-side logic by using node js Utilized PyUnit the Python unit test framework, for all Python applications. Created methods (get, post, put, delete) to make requests to the API server and tested Restful API using postman. Used GIT for loading and pushing source code and used Jenkins for continuous Integration for the GIT repository. Worked on Jira for managing the tasks and improving the individual performance. Environment: Python, Django, Matplotlib, NumPy, Pandas, Boto3, AWS (VPC, EC2, S3, ELB, Autoscaling Groups, EBS, RDS, IAM, CloudWatch), XML, JSON, Bootstrap, PyTest, PyUnit, PyQuery, REST API, Jenkins, GIT, Jira, Agile, Windows. Client: Auto-Owners Insurance, Lansing, MI Jan 2018 – Nov 2019 Role: Python Developer Responsibilities: Participated in various phases of Software Development Life Cycle (SDLC) such as requirements gathering, modeling, analysis, design and development. Involved in the development of entire frontend and backend modules using Python on Django Web Framework by utilizing the concepts of views and templates with Python and Django's view controller and templating language to create a user-friendly website interface. Used Django Framework in developing web applications to implement the model view control architecture along with Django's ORM model.
+Utilized Python libraries like NumPy and Matplotlib for generating graphical reports. Worked on AWS using EC2 instances, setting security groups (ports, source) handling events between python scripts and Linux server. Build all Database Mapping classes using Django Generic, Class and functioned based methods. Wrote Python scripts to parse JSON documents and load the data in database. Used Amazon Web Services (AWS) for improved efficiency of storage and fast access. Utilized Python Libraries like Boto3, NumPy for AWS. Graphical data representation using python modules like NumPy, SciPy, Pandas, Pygal and installed using pip command toolkit. Created Map Reduce programs in Python to reconcile the existing member history and new files. Developed tools using Python, Shell scripting, XML to automate some of the menial tasks. Designed and maintained databases using Python and developed Python based API (RESTful Web Service) using Django, MySQL. Executed MYSQL database queries from python using Python-MySQL connector and MySQL dB package to retrieve information. Deployed the project into Jenkins using GIT version control system. Environment: Python, Django, NumPy, SciPy, Matplotlib, Pandas, Boto3, AWS, EC2, Bootstrap, HTML, CSS, JSON, MySQL, Jenkins, GIT, Agile, Linux. Client: Parkway Bank, Harwood Heights, IL May 2016 – Dec 2017 Role: Python Developer Responsibilities: Involved in the process of creating Use-case diagrams, Activity flow diagrams, Class diagrams and Object diagrams in the design phase and developed the Coding module. Developed views and templates with Python and Django's view controller and templating language to created user-friendly website interface. Used Pandas API to put the data as time series and tabular format for east timestamp data manipulation and retrieval. Implemented user interface guidelines and standards throughout the development and maintenance of the website using the HTML, CSS, JavaScript and JQuery. Comfortable working with templates in server-side technologies and client side apps Thorough understanding of server side integration, Restful, Spring MVC, web services Involved in Python OOD code for quality, logging, monitoring, and debugging code optimization. Utilized standard Python modules such as csv, itertools and pickle for development. Used Python and Django to interface with the JQuery UI and manage the storage and deletion of content. Used Python based GUI components for the front-end functionality such as selection criteria. Created a Python/Django based web application using Python scripting for data processing, MySQL for the database, and HTML/CSS/JQuery and High Charts for data visualization of
+the served pages. Used PyQt for the functionality filtering of columns helping customers to effectively view their transactions and statements. Implemented navigation rules for the application and page. Created a Git repository and added the project to GitHub. Performed troubleshooting, fixed and deployed many Python bug fixes of the two main applications that were a main source of data for both customers and internal customer service team. Participated in Daily stand-up meetings and provided status on work progress. Environment: Python, Django, Pandas, PyQt, HTML, CSS, jQuery, GITHUB, Jira, Agi
+
+
+Above is a resume of a candidate i need the following informations from the above given resume namely  the Relevant Experience , must_have Experience , Good_to_have Experience of the candidate using the below needed skills_required:
+Experience of the candidate using the below needed skills_required:
+Relevant Experience
+must_have Experience
+Good_to_have Experience
+
+Skills_required  = [ job_title: must_have:  Python (3 years), machine learning (0 years), HTML (1.8 years), CSS (1.8 years) good_to_have : Numpy (3 years), Scipy (1.8 years), Pandas (1.8 years), Dask (0 years), spaCy (0 years), NLTK (0 years), PyTorch (0 years), JavaScript (0 years), SQL (0 years), NoSQL (0 years), Django (3 years), Flask (0 years), Pyramid (0 years), AWS (1.2 years), Google Cloud (0 years), Azure (0 years) locations: experiences: 3+ ]
+
+Demo Answer calculation :
+Dontprint below data [ Below data is for reference how to calculate the Relevant Experience ,must_have  Experience , Good_to_have Experience:
+
+Relevant Experience:
+Expected experience is 3+ , So taking the last 3 years projects namely :
+Project : Bath & Body Works, Reynoldsburg, OH (Dec 2019 – May 2021)Skills: Python, Django, Matplotlib, NumPy, Pandas, Boto3, AWS (VPC, EC2, S3, ELB, Autoscaling Groups, EBS, RDS, IAM, CloudWatch), XML, JSON, Bootstrap, PyTest, PyUnit, PyQuery, REST API, Jenkins, GIT, Jira, Agile, Windows.
+Project: Auto-Owners Insurance, Lansing, MI (Jan 2018 – Nov 2019)Skills: Python, Django, NumPy, SciPy, Matplotlib, Pandas, Boto3, AWS, EC2, Bootstrap, HTML, CSS, JSON, MySQL, Jenkins, GIT, Agile, Linux.
+must_have:  Python,machine learning, HTML, CSS . so , from the above two projects:
+1st skill of the must_have is python , so python is mentioned in that two projects . so ,for must_have skills we give 2 points . so 2 * 3 (3 is given as the last two projects total duration is 3 years)
+So , Python :6   likewise
+        machine learning : 0 (0 is given for machine learning , as machine learning is not mentioned in both the projects)
+HTML : 3.6
+CSS  : 3.6
+( HTML and CSS is is mentioned in the second project only . so , second project duration is 1.8 years . so multiplying 2 with 1.8 )
+good_to_have : Numpy, Scipy, Pandas, Dask, spaCy, NLTK, PyTorch, JavaScript, SQL, NoSQL, Django, Flask, Pyramid, AWS, Google Cloud, Azure
+    1st skill of the good_to_have is Numpy , so Numpy is mentioned in that two projects . so ,for good_to_have skills we give 1 points . so 1 * 3 (3 is given as the last two projects total duration is 3 years)
+    So , Numpy :3   likewise
+        Scipy : 1.8
+Pandas : 1.8
+( Scipy and Pandas is is mentioned in the second project only . so , the second project duration is 1.8 years . so multiplying 2 with 1.8 )
+Dask : 0
+spaCy : 0
+NLTK : 0
+PyTorch :  0
+JavaScript : 0
+SQL : 0
+NoSQL : 0
+Django : 3
+Flask : 0
+Pyramid : 0
+AWS : 1.2
+    ( AWS is mentioned in the first project only . so , the first project duration is 1.2 years . so multiplying 1 with 1.2 )
+
+Google Cloud : 0
+Azure : 0
+
+locations: 0
+    (For locations we give 1 points , as location is not there in the skillset we give 0 )
+Experiences: 0
+    (For Experiences we give 1 points , as Experiences is not there in the resume we give 0 )
+
+So the relevant Experiences is :
+        must_have percentage = (each must_have value /highest possible value for must_have skills ( 6  As , 2 * 3 (3 is given as the last two projects total duration is 3 years)
+))
+       [ (6/6) + (0/6) + (3.6/6) +(6/6) + (0/6) + (3.6/6) + (3.6/6 ) ] / 4 ( total number of must_have skills)  = 0.55
+             must_have Experience = 55%
+
+Good_to_have value  = Good_to_have Experiences = (each Good_to_have value /highest possible value for Good_to_have skills ( 3  As , 1 * 3 (3 is given as the last two projects total duration is 3 years)
+))
+       [ (3/3) + (1.8/3) + (1.8/3) + (0/3) + (0/3) + (0/3) + (0/3) + (0/3) + (0/3) + (0/3) + (3/3) + (0/3) + (0/3) + (1.2/3 ) ] / 16 ( total number of Good_to_have skills)  = 0.225
+    
+             Good_to_have Experience = 22.5%
+
+Locations percentage = ( Locations value / total number of Locations )
+        
+        (0/0) = 0
+Locations percentage =0%
+Experiences percentage  =  ( Locations value / total number of Locations )
+(0/1) = 0
+Experiences percentage = 0%
+relevant Experiences =[ (must_have percentage + Good_to_have percentage + Locations percentage + Experiences percentage )/4]
+        relevant percentage= [ (55+22.5+0+0) / 4 ]
+        Relevant Experience = 19.37%
+
+must_have percentage = 55%
+Good_to_have percentage = 22.5%
+Locations percentage =0%
+Experiences percentage = 0%
+Relevant Experience = 19.37% ]
+
+Demo Answer :
+Based on the provided resume, here are the requested details:
+Relevant Experience = 19.37%
+must_have Experience = 55%
+Good_to_have Experience= 22.5%
+
+Skill set with years of experience:
+- Python: 3 years
+- Machine Learning: 0 years
+- HTML: 1.8 years
+- CSS: 1.8 years
+- Numpy: 3 years
+- Scipy: 1.8 years
+- Pandas: 1.8 years
+- Dask: 0 years
+- spaCy: 0 years
+- NLTK: 0 years
+- PyTorch: 0 years
+- JavaScript: 0 years
+- SQL: 0 years
+- NoSQL: 0 years
+- Django: 3 years
+- Flask: 0 years
+- Pyramid: 0 years
+- AWS: 1.2 years
+- Google Cloud: 0 years
+- Azure: 0 years
+
+Location=give here an current location
+
+Test Question :{utemp_resume}
+Skills_required = {uskillset}
+above is a resume of a candidate i need the following informations from the above given resume namely  the Relevant Experience , must_have Experience , Good_to_have Experience of the candidate using the above mentioned skills:
+    
+    Test Answer :

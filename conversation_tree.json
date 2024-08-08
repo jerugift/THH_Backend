@@ -1,0 +1,87 @@
+{
+  "start": [
+    "Hi ! How can I help you? \n A: Talent Resourcing \n B: Deep-Doc-Verify \n C: Link Extraction \n D: Chat with Database   ",
+    {
+      "a": "resume_fetch",
+      "b": "document_validation",
+      "c": "Link_extraction",
+      "d": "NLP"
+    }
+  ],
+  "resume_fetch": [
+    "How would you like to upload the job description? \n A: Upload \n B: Copy Paste  \n\n Or do you want to choose: \n C: Link Extraction \n D: Chat with Database \n E: Previous menu \n F: Main menu",
+    {
+      "a": "upload_jd",
+      "b": "copy_paste_jd",
+      "c": "Link_extraction",
+      "d": "NLP",
+      "e": "start",
+      "f": "start"
+    }
+  ],
+  "document_validation": [
+    "Upload your file to validate and wait till we process",
+    {
+      "a": "resume_fetch",
+      "c": "Link_extraction",
+      "d": "NLP",
+      "e": "start",
+      "f": "start"
+    }
+  ],
+  "Link_extraction": [
+    "Type your query",
+    {
+      "a": "resume_fetch",
+      "b": "document_validation",
+      "c": "Link_extraction",
+      "d": "NLP",
+      "e": "start",
+      "f": "start"
+    }
+  ],
+  "NLP": [
+    "Shoot your questions",
+    {
+      "a": "resume_fetch",
+      "b": "document_validation",
+      "c": "Link_extraction",
+      "e": "start",
+      "f": "start"
+    }
+  ],
+  "upload_jd": [
+    "Please upload the job description and wait while we process your request...",
+    {
+      "a": "resume_fetch",
+      "b": "document_validation",
+      "c": "Link_extraction",
+      "d": "NLP",
+      "e": "resume_fetch",
+      "f": "start"
+    }
+  ],
+  "copy_paste_jd": [
+    "Please paste your job description...",
+    {
+      "a": "resume_fetch",
+      "b": "document_validation",
+      "e": "resume_fetch",
+      "f": "start"
+    }
+  ],
+  "visa": [
+    "Please upload the document for visa validation.",
+    {
+      "e": "document_validation",
+      "f": "start"
+    }
+  ],
+  "driver_license": [
+    "Please upload the document for driver's license validation.",
+    {
+      "e": "document_validation",
+      "f": "start"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+question = (f"""
+    Demo Question:
+    1.Demo Question :{prompt_resume}
+
+Above is a resume of a candidate. I need the following information from the above given resume namely the Relevant Experience, must_have Experience, Good_to_have Experience of the candidate using the below needed skills_required:
+Relevant Experience
+must_have Experience
+Good_to_have Experience
+
+
+Skills_required  = [ job_title: must_have:  Python,machine learning, HTML, CSS  good_to_have : Numpy, Scipy, Pandas, Dask, spaCy, NLTK, PyTorch, JavaScript, SQL, NoSQL, Django, Flask, Pyramid, AWS, Google Cloud, Azure locations: experiences: 3+ ]
+
+Demo Answer calculation :
+Dontprint below data [ Below data is for reference how to calculate the Relevant Experience ,must_have  Experience , Good_to_have Experience:
+
+Relevant Experience:
+Expected experience is 3+ , So taking the last 3 years projects namely :
+Project : Bath & Body Works, Reynoldsburg, OH (Dec 2019 – May 2021)Skills: Python, Django, Matplotlib, NumPy, Pandas, Boto3, AWS (VPC, EC2, S3, ELB, Autoscaling Groups, EBS, RDS, IAM, CloudWatch), XML, JSON, Bootstrap, PyTest, PyUnit, PyQuery, REST API, Jenkins, GIT, Jira, Agile, Windows.
+Project: Auto-Owners Insurance, Lansing, MI (Jan 2018 – Nov 2019)Skills: Python, Django, NumPy, SciPy, Matplotlib, Pandas, Boto3, AWS, EC2, Bootstrap, HTML, CSS, JSON, MySQL, Jenkins, GIT, Agile, Linux.
+must_have:  Python,machine learning, HTML, CSS . so , from the above two projects:
+1st skill of the must_have is python , so python is mentioned in that two projects . so ,for must_have skills we give 2 points . so 2 * 3 (3 is given as the last two projects total duration is 3 years)
+So , Python :6   likewise
+        machine learning : 0 (0 is given for machine learning , as machine learning is not mentioned in both the projects)
+HTML : 3.6
+CSS  : 3.6
+( HTML and CSS is is mentioned in the second project only . so , second project duration is 1.8 years . so multiplying 2 with 1.8 )
+good_to_have : Numpy, Scipy, Pandas, Dask, spaCy, NLTK, PyTorch, JavaScript, SQL, NoSQL, Django, Flask, Pyramid, AWS, Google Cloud, Azure
+    1st skill of the good_to_have is Numpy , so Numpy is mentioned in that two projects . so ,for good_to_have skills we give 1 points . so 1 * 3 (3 is given as the last two projects total duration is 3 years)
+    So , Numpy :3   likewise
+        Scipy : 1.8
+Pandas : 1.8
+( Scipy and Pandas is is mentioned in the second project only . so , the second project duration is 1.8 years . so multiplying 1 with 1.8 )
+Dask : 0
+spaCy : 0
+NLTK : 0
+PyTorch :  0
+JavaScript : 0
+SQL : 0
+NoSQL : 0
+Django : 3
+Flask : 0
+Pyramid : 0
+AWS : 1.2
+    ( AWS is mentioned in the first project only . so , the first project duration is 1.2 years . so multiplying 1 with 1.2 )
+
+
+Google Cloud : 0
+Azure : 0
+
+
+locations: 0
+    (For locations we give 1 points , as location is not there in the skillset we give 0 )
+Experiences: 0
+    (For Experiences we give 1 points , as Experiences is not there in the resume we give 0 )
+
+
+So the relevant Experiences is :
+        must_have percentage = (each must_have value /highest possible value for must_have skills ( 6  As , 2 * 3 (3 is given as the last two projects total duration is 3 years)
+))
+       [ (6/6) + (0/6) + (3.6/6) +(6/6) + (0/6) + (3.6/6) + (3.6/6 ) ] / 4 ( total number of must_have skills)  = 0.55
+             must_have Experience = 55%
+
+
+   Good_to_have value  = Good_to_have Experiences = (each Good_to_have value /highest possible value for Good_to_have skills ( 3  As , 1 * 3 (3 is given as the last two projects total duration is 3 years)
+))
+       [ (3/3) + (1.8/3) + (1.8/3) + (0/3) + (0/3) + (0/3) + (0/3) + (0/3) + (0/3) + (0/3) + (3/3) + (0/3) + (0/3) + (1.2/3 ) ] / 16 ( total number of Good_to_have skills)  = 0.225
+    
+             Good_to_have Experience = 22.5%
+
+
+   Locations percentage = ( Locations value / total number of Locations )
+        
+        (0/0) = 0
+Locations percentage =0%
+Experiences percentage  =  ( Locations value / total number of Locations )
+(0/1) = 0
+Experiences percentage = 0%
+relevant Experiences =[ (must_have percentage + Good_to_have percentage + Locations percentage + Experiences percentage )/4]
+        relevant percentage= [ (55+22.5+0+0) / 4 ]
+        Relevant Experience = 19.37%
+
+
+must_have percentage = 55%
+Good_to_have percentage = 22.5%
+Locations percentage =0%
+Experiences percentage = 0%
+Relevant Experience = 19.37% ]
+
+Demo Answer :
+Relevant Experience = 19.37%
+Must have Experience = 55%
+Good to have Experience= 22.5%
+
+2.Demo Question :{prompt_resume2}
+
+
+Above is a resume of a candidate. I need the following information from the above given resume namely the Relevant Experience, must_have Experience, Good_to_have Experience of the candidate using the below needed skills_required:
+Relevant Experience
+must_have Experience
+Good_to_have Experience
+
+
+Skills_required  = [ job_title: must_have:  Python,machine learning, HTML, CSS  good_to_have : Numpy, Scipy, Pandas, Dask, spaCy, NLTK, PyTorch, JavaScript, SQL, NoSQL, Django, Flask, Pyramid, AWS, Google Cloud, Azure locations: experiences: 3+ ]
+
+Demo Answer calculation :
+Dontprint below data [ Below data is for reference how to calculate the Relevant Experience ,must_have  Experience , Good_to_have Experience:
+
+Relevant Experience:
+Expected experience is 3+ , So taking the last 3 years projects namely :
+Project : Bath & Body Works, Reynoldsburg, OH (Dec 2019 – May 2021)Skills: Python, Django, Matplotlib, NumPy, Pandas, Boto3, AWS (VPC, EC2, S3, ELB, Autoscaling Groups, EBS, RDS, IAM, CloudWatch), XML, JSON, Bootstrap, PyTest, PyUnit, PyQuery, REST API, Jenkins, GIT, Jira, Agile, Windows.
+Project: Auto-Owners Insurance, Lansing, MI (Jan 2018 – Nov 2019)Skills: Python, Django, NumPy, SciPy, Matplotlib, Pandas, Boto3, AWS, EC2, Bootstrap, HTML, CSS, JSON, MySQL, Jenkins, GIT, Agile, Linux.
+must_have:  Python,machine learning, HTML, CSS . so , from the above two projects:
+1st skill of the must_have is python , so python is mentioned in that two projects . so ,for must_have skills we give 2 points . so 2 * 3 (3 is given as the last two projects total duration is 3 years)
+So , Python :6   likewise
+        machine learning : 0 (0 is given for machine learning , as machine learning is not mentioned in both the projects)
+HTML : 3.6
+CSS  : 3.6
+( HTML and CSS is is mentioned in the second project only . so , second project duration is 1.8 years . so multiplying 2 with 1.8 )
+good_to_have : Numpy, Scipy, Pandas, Dask, spaCy, NLTK, PyTorch, JavaScript, SQL, NoSQL, Django, Flask, Pyramid, AWS, Google Cloud, Azure
+    1st skill of the good_to_have is Numpy , so Numpy is mentioned in that two projects . so ,for good_to_have skills we give 1 points . so 1 * 3 (3 is given as the last two projects total duration is 3 years)
+    So , Numpy :3   likewise
+        Scipy : 1.8
+Pandas : 1.8
+( Scipy and Pandas is is mentioned in the second project only . so , the second project duration is 1.8 years . so multiplying 1 with 1.8 )
+Dask : 0
+spaCy : 0
+NLTK : 0
+PyTorch :  0
+JavaScript : 0
+SQL : 0
+NoSQL : 0
+Django : 3
+Flask : 0
+Pyramid : 0
+AWS : 1.2
+    ( AWS is mentioned in the first project only . so , the first project duration is 1.2 years . so multiplying 1 with 1.2 )
+
+
+Google Cloud : 0
+Azure : 0
+
+
+locations: 0
+    (For locations we give 1 points , as location is not there in the skillset we give 0 )
+Experiences: 0
+    (For Experiences we give 1 points , as Experiences is not there in the resume we give 0 )
+
+
+So the relevant Experiences is :
+        must_have percentage = (each must_have value /highest possible value for must_have skills ( 6  As , 2 * 3 (3 is given as the last two projects total duration is 3 years)
+))
+       [ (6/6) + (0/6) + (3.6/6) +(6/6) + (0/6) + (3.6/6) + (3.6/6 ) ] / 4 ( total number of must_have skills)  = 0.55
+             must_have Experience = 55%
+
+
+   Good_to_have value  = Good_to_have Experiences = (each Good_to_have value /highest possible value for Good_to_have skills ( 3  As , 1 * 3 (3 is given as the last two projects total duration is 3 years)
+))
+       [ (3/3) + (1.8/3) + (1.8/3) + (0/3) + (0/3) + (0/3) + (0/3) + (0/3) + (0/3) + (0/3) + (3/3) + (0/3) + (0/3) + (1.2/3 ) ] / 16 ( total number of Good_to_have skills)  = 0.225
+    
+             Good_to_have Experience = 22.5%
+
+
+   Locations percentage = ( Locations value / total number of Locations )
+        
+        (0/0) = 0
+Locations percentage =0%
+Experiences percentage  =  ( Locations value / total number of Locations )
+(0/1) = 0
+Experiences percentage = 0%
+relevant Experiences =[ (must_have percentage + Good_to_have percentage + Locations percentage + Experiences percentage )/4]
+        relevant percentage= [ (55+22.5+0+0) / 4 ]
+        Relevant Experience = 19.37%
+
+
+must_have percentage = 55%
+Good_to_have percentage = 22.5%
+Locations percentage =0%
+Experiences percentage = 0%
+Relevant Experience = 19.37% ]
+
+
+Demo Answer :
+Relevant Experience = 19.37%
+Must have Experience = 55%
+Good to have Experience= 22.5%
+Description
+
+
+Test Question :{utemp_resume}
+Skills_required = {uskillset}
+above is a resume of a candidate i need the following informations from the above given resume namely  the Relevant Experience , must_have Experience , Good_to_have Experience of the candidate using the above mentioned skills:
+    
+    Test Answer :""")

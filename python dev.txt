@@ -1,0 +1,36 @@
+Python Dev Engineer:
+
+We seek a passionate Python developer to join our team at Pozent.
+
+You will be responsible for developing and implementing high-quality software solutions, creating complex applications using cutting-edge programming features and frameworks and collaborating with other teams in the firm to define, design and ship new features.
+
+As an active part of our company, you will brainstorm and chalk out solutions to suit our requirements and meet our business goals. You will also be working on data engineering problems and building data pipelines. You would get ample opportunities to work on challenging and innovative projects, using the latest technologies and tools. 
+
+If you enjoy working in a fast-paced and collaborative environment, we encourage you to apply for this exciting role. We offer industry-standard compensation packages, relocation assistance, and professional growth and development opportunities. 
+
+Objectives of this role
+Develop, test and maintain high-quality software using Python programming language.
+Participate in the entire software development lifecycle, building, testing and delivering high-quality solutions.
+Collaborate with cross-functional teams to identify and solve complex problems.
+Write clean and reusable code that can be easily maintained and scaled.
+Your tasks
+Create large-scale data processing pipelines to help developers build and train novel machine learning algorithms.
+Participate in code reviews, ensure code quality and identify areas for improvement to implement practical solutions.
+Debugging codes when required and troubleshooting any Python-related queries.
+Keep up to date with emerging trends and technologies in Python development. 
+Required skills and qualifications
+3+ years of experience as a Python Developer with a strong portfolio of projects.
+Bachelor's degree in Computer Science, Software Engineering or a related field.
+In-depth understanding of the Python software development stacks, ecosystems, frameworks and tools such as Numpy, Scipy, Pandas, Dask, spaCy, NLTK, sci-kit-learn and PyTorch.
+Experience with front-end development using HTML, CSS, and JavaScript.
+Familiarity with database technologies such as SQL and NoSQL.
+Excellent problem-solving ability with solid communication and collaboration skills.
+Preferred skills and qualifications
+Experience with popular Python frameworks such as Django, Flask or Pyramid.
+Knowledge of data science and machine learning concepts and tools.
+A working understanding of cloud platforms such as AWS, Google Cloud or Azure.
+Contributions to open-source Python projects or active involvement in the Python community.
+
+Experience: 3-6 years
+
+Location: India, US

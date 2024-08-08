@@ -1,0 +1,76 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.2,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"a89eae928",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "ner":[
+      "EXPERIENCE",
+      "GOOD TO HAVE",
+      "JOB TITLE",
+      "LOCATION",
+      "MUST HAVE"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "ner"
+  ],
+  "components":[
+    "transformer",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.582278481,
+    "ents_p":0.575,
+    "ents_r":0.5897435897,
+    "ents_per_type":{
+      "JOB TITLE":{
+        "p":0.8,
+        "r":0.8,
+        "f":0.8
+      },
+      "MUST HAVE":{
+        "p":0.4444444444,
+        "r":0.3076923077,
+        "f":0.3636363636
+      },
+      "GOOD TO HAVE":{
+        "p":0.5833333333,
+        "r":0.7368421053,
+        "f":0.6511627907
+      },
+      "EXPERIENCE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "LOCATION":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      }
+    },
+    "transformer_loss":40.7621495143,
+    "ner_loss":103.3249019841
+  }
+}
