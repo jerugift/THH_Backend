@@ -199,7 +199,7 @@ def cached_relative_ranking(question):
     for attempt in range(max_retries):
         try:
             response = model.generate_content(question)
-            truncated_response = ' '.join(response.text.split()[:70])
+            truncated_response = ' '.join(response.text.split()[:70])            
             return truncated_response
         except genai.exceptions.RateLimitError:
             print(f"Rate limit exceeded. Retrying in {retry_delay} seconds...")
@@ -226,6 +226,6 @@ def relative_ranking(resume, skillset):
         return f"Error: {e}"
  
 # Example usage
-resume, skillset = db_retrieve("job_id_example", "name_example")
-output = relative_ranking(resume, skillset)
-print(output)
+# resume, skillset = db_retrieve("job_id_example", "name_example")
+# output = relative_ranking(resume, skillset)
+# print(output)

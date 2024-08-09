@@ -8,7 +8,7 @@ api_rank= None
 async def con_data(keywords,new_jdid):
     res_id = fetch_resume_profile_api(keywords)
 
-    if res_id is not None:
+    if res_id is not None or res_id==[]:
         resume_id,candidate_ids= fetch_resume_num_api(res_id)
         name_email=name_and_email(candidate_ids)
         api_rank = fetch_resume_id_api(resume_id,name_email, new_jdid)

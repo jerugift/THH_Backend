@@ -1,4 +1,5 @@
 import requests
+import json
 import pandas as pd
 from sentence_transformers import SentenceTransformer, util
 from models.sql import sql_data_push    
@@ -13,22 +14,33 @@ def access_tokens():
 
 #1111
 def fetch_resume_profile_api(kwords):
-
+    #kwords=dict(kwords)
+    kwords1=json.loads(kwords)
+    #print("AAAAAAAAAAAAAAAAAAA",kwords)
     kwords_list=[]
-    kwords_list1=[mh_skills.upper() for mh_skills in kwords["Must have"]+kwords["Good to have"]] #[0:3]]
-
+    print("BBBBBBBBBBBBBBBBBBBBBBBBBBBBB", kwords_list)
+    kwords_list1=[mh_skills.upper() for mh_skills in kwords1["Job Title"]]#+kwords["Must have"]] #[0:3]]
+    print("CCCCCCCCCCCCCCCCCCC", kwords_list1)
+    
     if kwords_list1 is None:
        return jsonify({"status":"Failure", "message":"No skillsets were extracted, please change your JD"}),500
     elif len(kwords_list1)>8:
+        # kwords_list=json.dumps(kwords_list1[0:8])
         kwords_list=kwords_list1[0:8]
     else:
+        # kwords_list=json.dumps(kwords_list1)
         kwords_list=kwords_list1
+    
+    # keywords=json.dumps(kwords_list, indent=None)
+
+    print("DDDDDDDDDDDDDDDDDDD", kwords_list)
+    print("EEEEEEEEEE", type(kwords_list))
 
     skillset_to_post={
     "countries": ["US"],
     "resumeCount": 50,
     "skills": kwords_list,
-    "states": ["CA","TX","NJ"],
+    "states": [],
     "withinMiles": 0,
     "zipCode": ""
     }
@@ -40,12 +52,18 @@ def fetch_resume_profile_api(kwords):
 
     if response1.status_code == 200:        
         data = response1.json()       
-        if data is None:
+        if data is None or data ==[]:
+            print("No resumes found, please edit your Job Description")
             return jsonify({"status":"Failure", "message":"No resumes found, please edit your Job Description"}), 400
         else:
+            print("DATAA", data)
             return data
+    elif response1.status_code == 401:
+        print(f"Error: First API request failed with status code {response1.status_code}")
+        return jsonify({"status":"Failure", "message":"JobDiva API Authorisation error"}), 401
     else:
         print(f"Error: First API request failed with status code {response1.status_code}")
+        return jsonify({"status":"Failure", "message":"Empty DataFrame returned "}), 500
 
 
 

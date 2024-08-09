@@ -20,7 +20,7 @@ def create_tables_if_not_exist(cursor):
         email VARCHAR(255) DEFAULT NULL,
         Event_timestamp TIMESTAMP NULL DEFAULT NULL,
         JD VARCHAR(4000) DEFAULT NULL,
-        Skillset VARCHAR(255) DEFAULT NULL,
+        Skillset VARCHAR(5000) DEFAULT NULL,
         PRIMARY KEY (id)
     )
     """)

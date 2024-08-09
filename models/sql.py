@@ -329,3 +329,25 @@ def common_dash_func(filters, table):
 
     else:
         return {"status": "Failure", "message": "Failed to connect to the database"}, 500
+
+
+def rel_rank(job_id, name, result):
+    #global new_jdid
+    mydb = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        database="antony",
+        password="root123",
+        port="3306",
+        auth_plugin='mysql_native_password'
+    )
+    mycursor = mydb.cursor()
+
+    sql = f'''UPDATE candidate_info SET Relevant_experience = "{result}"
+              WHERE JOB_ID = "{job_id}" AND 
+              Name="{name}"'''
+    #val = [result]
+    mycursor.execute(sql)
+    mydb.commit()
+    return "Done"
+

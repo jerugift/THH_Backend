@@ -23,10 +23,11 @@ from models.nlp import chat_with_sql
 from models.keywords_ import extract_keywords_and_save
 from models.testmail import Trigger
 from models.relevent_ranking import relative_ranking,db_retrieve
-from models.sql import common_dash_func
+from models.sql import common_dash_func, rel_rank
 from models.downapi import download_api_resumes
 from models.linkextractorapi import generate_search_query, search_google, save_to_database
 from models.filterdownloadapi import connect_to_database
+from models.GeminiSE import generate_search_kwords
 
  
 app = Flask(__name__)
@@ -381,7 +382,8 @@ def get_validation_details():
         return jsonify({"status":"Failure","message": "Email parameter is missing"}),400
     
     return get_user_role_and_jobs(email,table)
-    # !   ----new ------
+    
+
 @app.route('/extract_keywords', methods=['POST'])
 def extract_keywords():
     email = request.form.get('email')
@@ -393,7 +395,7 @@ def extract_keywords():
         return jsonify({'status': 'Failure', 'message': 'No email provided'}), 400
  
     if text and not file:
-        results, job_id,text = extract_keywords_and_save(text, nlp, email, is_file=False)
+        results, job_id,text = generate_search_kwords(text, email, is_file=False)
         print(results)
         return redirect(url_for('final_con', results=results, job_id=str(job_id),text=str(text)))
     elif file:
@@ -404,7 +406,7 @@ def extract_keywords():
             file.save(temp_file.name)
             temp_path = temp_file.name
  
-        results, job_id,text = extract_keywords_and_save(temp_path, nlp, email)
+        results, job_id,text = generate_search_kwords(temp_path, email)
         os.remove(temp_path)
         print("1111111111111",results)
         print(type(results))
@@ -435,7 +437,7 @@ async def final_con():
     final_job_id=job_id
  
     try:
-        final_api_rank = await main(results, job_id)
+        final_api_rank = await main(data, job_id)
         api_rank = pd.DataFrame(final_api_rank)
         # if api_rank is not None:
         return redirect(url_for('rank',text=text))
@@ -458,31 +460,6 @@ def rank():
     return jsonify({"status": "Success", "message":f"Your resumes have been fetched. Click {final_job_id} in the dashboard to view your resumes"}),200
  
 
-
-@app.route('/fetch_candidates', methods=['POST'])
-def fetch_candidates_by_filters():
-    filters = request.json.get('filters', {})
-    print(filters)
-    # table = request.json.get('fetch_resume')
-    table = 'candidate_info'
-    return common_dash_func(filters,table)
-
-
-@app.route('/link_extracting', methods=['POST'])
-def fetch_links_by_filters():
-    filters = request.json.get('filters', {})
-    print(filters)    
-    table =  'link_extractor'
-    return common_dash_func(filters,table)
-
-
-@app.route('/data_validation', methods=['POST'])
-def fetch_validation_by_filters():
-    filters = request.json.get('filters', {})
-    print(filters)    
-    table = 'validation'
-    return common_dash_func(filters,table)
- 
 @app.route('/download_api_resumes', methods=['GET'])
 def download_api_resumes_route():
     email_id = request.args.get('email')
@@ -519,6 +496,8 @@ def Relevant():
         if not resume or not skillset:
             return jsonify({"status":"Failure",'message': 'Error retrieving resume or skillset'}), 500
         result = relative_ranking(resume, skillset)
+        db_save=rel_rank(job_id, name, result)
+        print(db_save)
         return jsonify({"status":"Success",'relevent_experience': result}),200
     except Exception as e:
         return jsonify({"status":"Failure",'message': f"Error: {e}"}), 500
@@ -639,6 +618,32 @@ def download_links():
     except sql.Error as error:
         print("Error executing query:", error)
         return jsonify({"status": "failure", "message": "Error executing query", "error": str(error)}), 500
+
+
+@app.route('/fetch_candidates', methods=['POST'])
+def fetch_candidates_by_filters():
+    filters = request.json.get('filters', {})
+    print(filters)
+    # table = request.json.get('fetch_resume')
+    table = 'candidate_info'
+    return common_dash_func(filters,table)
+
+
+@app.route('/link_extracting', methods=['POST'])
+def fetch_links_by_filters():
+    filters = request.json.get('filters', {})
+    print(filters)    
+    table =  'link_extractor'
+    return common_dash_func(filters,table)
+
+
+@app.route('/data_validation', methods=['POST'])
+def fetch_validation_by_filters():
+    filters = request.json.get('filters', {})
+    print(filters)    
+    table = 'validation'
+    return common_dash_func(filters,table)
+
  
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
