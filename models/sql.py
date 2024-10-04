@@ -3,6 +3,8 @@ from datetime import datetime
 import os
 import base64
 
+#testing testing
+
 def job_detail(jd, key, email):
     #global new_jdid
     a = datetime.now()
